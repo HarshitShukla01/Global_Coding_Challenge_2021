@@ -1,3 +1,24 @@
+//question
+/*
+Harry has just started investing in stock markets. 
+There are a variety of securities that he can buy, 
+but he is a bit confused about buying the securities 
+because he has a limited amount of money. 
+The prices of the various securities are given for N days 
+and security_value[k] denotes the price of the security on the kth day. 
+There is one more rule, Harry can buy at most k number of securities on the kth day. 
+As mentioned earlier, Harry has a limited amount of money with him 
+to buy these securities and this amount is denoted by z. 
+Can you guide Harry in finding the maximum number of securities that he can buy?
+*/
+
+//sample input
+/*
+64
+17 24 7 45 15 14 37 40 8 23 27 17
+*/
+//solution => 8
+
 #include <iostream>
 #include <string>
 #include <stdio.h>
@@ -67,5 +88,4 @@ cout << no_of_stocks_purchased;
  
  
 }
- 
  
